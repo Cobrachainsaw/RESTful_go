@@ -9,7 +9,7 @@ import (
 func main() {
 	cfg := mysql.Config{
 		User:                 Envs.DBUser,
-		Pwd:                  Envs.DBPassword,
+		Passwd:               Envs.DBPassword,
 		Addr:                 Envs.DBAddress,
 		DBName:               Envs.DBName,
 		Net:                  "tcp",
